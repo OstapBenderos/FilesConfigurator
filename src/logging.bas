@@ -27,7 +27,7 @@ LogFileMacro caller, message, "ERR"
 End Sub
 
 Public Sub LogInfo(ByVal caller As String, ByVal message As String)
-On error resume next
+
 LogFileMacro caller, message, "INF"
 
 End Sub
